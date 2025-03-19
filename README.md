@@ -1,2 +1,2 @@
 # kiosk-website
-Simple website for kiosks
+Simple website for information kiosks
