@@ -3,15 +3,18 @@ body {
 	display:flex;
 	height:100vh;
 	align-items:center;
+    background-color: #EEEEEE;
 }
 .content {
     margin: 0 auto;
 }
 .buttons-container {
     margin: auto;
+    padding: 100px;
     display: flex;
     justify-items: center;
     border: 4px solid #ff7300;
+    background-color: white;
     border-radius: 75px;
 }
 .buttons-column {
@@ -22,16 +25,17 @@ body {
     justify-content: space-between;
 }
 .page-link {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    vertical-align: middle;
     font-size: 48px;
     margin: 30px;
     width: 500px;
     height: 200px;
-    line-height: 200px;
     border-radius: 75px;
     color: white;
     background-color: #ff7300;
     border: 5px solid #cb5f1b;
+    text-decoration: none;
 }
