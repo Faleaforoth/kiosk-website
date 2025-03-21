@@ -3,7 +3,6 @@ body {
 	display: flex;
 	height: 100vh;
     width: 100vw;
-    flex-direction: column;
 	align-items:center;
     justify-content: center;
     background-color: #EEEEEE;
@@ -88,4 +87,20 @@ html * {
     width: 90%;
     height: 90%;
     object-fit: contain;
+}
+.sidebar {
+    width: 10%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-image {
+    width: 75%;
+    margin: 10%;
+    height: auto;
+    display: inline;
+    top: 0;
+    left: 0;
 }
