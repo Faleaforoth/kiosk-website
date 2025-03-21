@@ -85,4 +85,7 @@ html * {
 }
 .time-schedule-image {
     margin: 25px;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
 }
