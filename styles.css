@@ -35,6 +35,16 @@ html * {
     justify-content: space-between;
     align-items: center;
 }
+.navigation-column {
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
 .page-link {
     flex: 0 0 auto;
     display: flex;
@@ -52,17 +62,21 @@ html * {
     text-decoration: none;
 }
 .schedule-container {
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 .schedule-image-container {
-    height: 600px;
-    flex: 1.5 1 0;
-    width: 850px;
-    height: 850px;
+    width: 100%;
+    height: 100%;
+    flex: 1.5 1 auto;
     margin: 15px;
     border:5px solid #ff7300;
     border-radius: 15px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .schedule-image {
     width: 100%;
