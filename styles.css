@@ -122,3 +122,6 @@ html * {
     align-items: center;
     overflow: auto;
 }
+.no-border {
+    border: 0px;
+}
