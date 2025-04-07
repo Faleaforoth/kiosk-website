@@ -86,7 +86,7 @@ html * {
     height: 90%;
     object-fit: contain;
 }
-.scroll-image {
+.scroll-element {
     flex: 1;
     width: 100%;
     height: auto;
