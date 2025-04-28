@@ -90,8 +90,12 @@ html * {
     flex: 1;
     width: 100%;
     height: auto;
-    border-top: solid 1px #ff7300;
-    border-bottom: solid 1px #ff7300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 15px;
 }
 .sidebar {
     width: 10%;
@@ -124,4 +128,12 @@ html * {
 }
 .no-border {
     border: 0px;
+}
+.image-link {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+.scroll-link {
+    width: 90%;
 }
